@@ -1,0 +1,682 @@
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr;
+    grid-template-rows: 11fr 0.2fr;
+  }
+  
+  .play { grid-area: 2 / 1 / 3 / 3; 
+
+    background-color: hotpink;
+}
+  
+  .musique { grid-area: 1 / 2 / 2 / 3; 
+    background-color: #212F46;
+}
+  
+  .menu { grid-area: 1 / 1 / 2 / 2;
+color: red;
+background-color:#191414;
+
+}
+
+.gridtop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(00px, auto);
+    margin:10px;
+    
+}
+
+#logo {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    width: 50px;
+    height:50px;
+    
+    
+}
+
+  #loop {
+    grid-column: 1 / 2;
+    grid-row: 3;
+    width: 50px;
+    height:50px;
+    
+    
+  }
+
+  #accueil {
+    grid-column: 1 / 2;
+    grid-row: 2;
+    width: 50px;
+    height:50px;
+    
+    
+  }
+
+  #bibli {
+    grid-column: 1 / 2;
+    grid-row: 4;
+    width: 50px;
+    height:50px;
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .all{
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .top{
+
+    grid-column: 1 ;
+    grid-row: 1;
+    width: 100px;
+    height:100px;
+  }
+
+  .mid{
+
+    grid-column: 1 ;
+    grid-row: 2;
+    width: 100px;
+    height:100px;
+  }
+
+  .bottom{
+
+    grid-column: 1 ;
+    grid-row: 3;
+    width: 100px;
+    height:100px;
+    
+  }
+
+
+  .spotifybouton {
+	grid-column: 2 / 2 ;
+    grid-row: 1;
+    margin-left: 0px;
+    width: 175px;
+    height: 50px;
+    /* UI Properties */
+    background: none;
+    border-radius: 0px;
+  
+    font:bold 25px Arial;
+    color: #ffff;
+    border: none;
+
+  }
+    .rechercher {
+	
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+       
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 25px Arial;
+        color: #ffff;
+        border: none;
+    }
+
+    .bibli {
+	
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+       
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 25px Arial;
+        color: #ffff;
+        border: none;
+    }
+
+    .accueil{
+	
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+       
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 25px Arial;
+        color: #ffff;
+        border: none;
+    }
+
+
+
+
+    .inscrire {
+        grid-column: 1 / 1;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 200px;
+        height: 40px;
+        /* UI Properties */
+        background: #ffff 0% 0% no-repeat padding-box;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: #1E2647;
+        border: none;
+    }
+
+
+    
+    .connecter {
+        grid-column: 1 / 1;
+        grid-row: 2;
+        margin-left: 0px;
+        width: 200px;
+        height: 40px;
+        /* UI Properties */
+        background: #1E2647 0% 0% no-repeat padding-box;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: #ffff;
+        border: none;
+    }
+
+    .gridbottom{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        margin-top: -2000px;
+    }
+
+
+
+    .allune{
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        
+        
+    }
+
+
+    .alaune {
+        grid-column: 1 / 5 ;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: transparent;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        margin-left: 250px;
+        border: none;
+      }
+
+
+
+      .podcast {
+        grid-column: 2 / 5 ;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+      .genres {
+        grid-column: 3 / 5 ;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+      .nouveaute {
+        grid-column: 4 / 5 ;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .decouvrir {
+        grid-column: 5 / 5 ;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+      .dernieresortie { 
+        font-size: 70px;
+        color: #ffff;
+        margin-left:80px;
+        text-align: left;
+
+    }
+    
+    .voirtout{ 
+        
+        
+        margin-left:250px;
+        text-align: right;
+        background: transparent ;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: grey;
+        border: none;
+    }
+   
+
+    .voirtou{ 
+        
+        
+        margin-left:250px;
+        text-align: right;
+        background: transparent ;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: grey;
+    }
+   
+    .lastsortie{
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(10px, auto);
+        margin-left: 20px;
+        
+    }
+
+
+    .xxx {
+        grid-column: 1 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+    
+      }
+
+    #booba{
+
+    width:200px ;
+    height:200px ;
+    }
+
+    #niska{
+
+        width:200px ;
+        height:200px;
+        }
+
+     #destin{
+
+         width:200px ;
+         height: 200px;
+         
+     }
+
+    #xeu{
+
+        width:200px ;
+        height:200px ;
+    }
+
+    #plk{
+
+         width:200px ;
+         height:200px ;
+    }
+
+    #xxx{
+
+         width:200px ;
+        height:200px ;
+    }
+
+    .niska {
+        grid-column: 2 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+      .xeu {
+        grid-column: 3 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .plk {
+        grid-column: 4 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .destin {
+        grid-column: 5 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .booba {
+        grid-column: 6 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+
+      .ambiance { 
+        font-size: 70px;
+        color: #ffff;
+        margin-left:80px;
+        text-align: left;
+
+    }
+    
+    .voirtout2{ 
+        
+        
+        margin-left:250px;
+        text-align: right;
+        background: transparent ;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: grey;
+        border: none;
+        margin-top: -100px;
+    }
+   
+
+    .voirtou2{ 
+        
+        
+        margin-left:700px;
+        text-align: right;
+        background: transparent ;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: grey;
+        margin-top: -100px;
+    }
+
+
+
+
+    .ambiance{
+
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-left: 100px;
+        margin-top: 100px;
+        
+    }
+
+
+    .legend {
+        grid-column: 1 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+    
+      }
+
+    #warrior{
+
+    width:200px ;
+    height:200px ;
+    }
+
+    #tobu{
+
+        width:200px ;
+        height:200px;
+        }
+
+     #rise{
+
+         width:200px ;
+         height: 200px;
+         
+     }
+
+    #gamgam{
+
+        width:200px ;
+        height:200px ;
+    }
+
+    #phoenix{
+
+         width:200px ;
+         height:200px ;
+    }
+
+    #legend{
+
+         width:200px ;
+        height:200px ;
+    }
+
+    .tobu {
+        grid-column: 2 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+      .gamgam {
+        grid-column: 3 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .phoenix{
+        grid-column: 4 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .rise {
+        grid-column: 5 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      .warrior {
+        grid-column: 6 / 6;
+        grid-row: 1;
+        margin-left: 0px;
+        width: 175px;
+        height: 50px;
+        /* UI Properties */
+        background: none;
+        border-radius: 0px;
+      
+        font:bold 17px Arial;
+        color: #ffff;
+        border: none;
+      }
+
+
+      
+      .voirtou4{ 
+        
+        margin-top: -50px;
+        margin-left:1075px;
+        text-align: right;
+        background: transparent ;
+        border-radius: 41px;
+        opacity: 1;
+        font:bold 25px Arial;
+        color: grey;
+    }
